@@ -54,10 +54,8 @@
     # networking.proxy.noProxy = "127.0.0.1,localhost,internal.domain";
 
     # Logitech wireless support/configuration
-    hardware.logitech.wireless = {
-      enable = true;
-      enableGraphical = true;
-    };
+    hardware.logitech.wireless.enable = true;
+    programs.solaar.enable = true;
 
     # Corsair keyboard etc. support
     hardware.ckb-next.enable = true;
