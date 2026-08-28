@@ -57,11 +57,4 @@
       targets.qt.enable = false;
     };
   };
-
-  flake.modules.homeManager.stylix = _: {
-    stylix = {
-      targets.hyprlock.enable = false;
-      targets.waybar.enable = false;
-    };
-  };
 }

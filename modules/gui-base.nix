@@ -6,10 +6,7 @@
     };
 
     environment.systemPackages = with pkgs; [
-      pwvucontrol
       wl-clipboard
-      waybar
-      fuzzel
     ];
   };
 
@@ -19,7 +16,7 @@
     ...
   }: {
     programs.waybar = {
-      enable = true;
+      enable = false;
       settings = {
         mainBar = {
           layer = "top";
@@ -156,7 +153,7 @@
     ];
 
     programs.fuzzel = {
-      enable = true;
+      enable = false;
       settings = {
         main = {
           width = 30;
@@ -181,7 +178,5 @@
     qt = {
       enable = true;
     };
-
-    services.hyprpaper.enable = true;
   };
 }
