@@ -13,6 +13,7 @@
       "development"
       "gemini"
       "niri"
+      "noctalia"
       "stylix"
       "gaming"
       "obs"

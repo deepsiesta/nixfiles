@@ -17,6 +17,7 @@
       "development"
       "gemini"
       "niri"
+      "noctalia"
       "stylix"
       "gaming"
       "slack"
