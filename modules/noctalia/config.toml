@@ -29,7 +29,7 @@ settings_show_advanced = false
 
     [shell.panel]
     control_center_placement = "floating"
-    control_center_position = "top_left"
+    control_center_position = "top_right"
     open_near_click_control_center = true
 
 [theme]
