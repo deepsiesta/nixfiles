@@ -2,8 +2,6 @@
 background_opacity = 0.80
 center = [ "workspaces" ]
 end = [
-    "media",
-    "spacer",
     "tray",
     "notifications",
     "clipboard",
@@ -41,11 +39,9 @@ mode = "dark"
 source = "builtin"
 wallpaper_scheme = "m3-content"
 
-[widget.Spacer]
-type = "spacer"
-
 [widget.active_window]
 display = "text_only"
+interactive = false
 max_length = 600
 
 [widget.media]
