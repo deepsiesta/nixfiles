@@ -23,6 +23,10 @@ thickness = 32
 [lockscreen_widgets]
 enabled = false
 
+[osd.kinds]
+lock_keys = false
+media = false
+
 [shell]
 corner_radius_scale = 0.0
 settings_show_advanced = false
@@ -34,10 +38,8 @@ settings_show_advanced = false
 
 [theme]
 builtin = "Tokyo-Night"
-community_palette = "Oxocarbon"
 mode = "dark"
 source = "builtin"
-wallpaper_scheme = "m3-content"
 
 [widget.active_window]
 display = "text_only"
