@@ -18,6 +18,7 @@
       "development"
       "gemini"
       "niri"
+      "noctalia"
       "stylix"
       "gaming"
       "nvidia"

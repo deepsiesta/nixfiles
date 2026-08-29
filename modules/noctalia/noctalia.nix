@@ -1,17 +1,22 @@
 {
-  flake.modules.nixos.niri = {inputs, ...}: {
+  flake.modules.nixos.noctalia = {
+    inputs,
+    pkgs,
+    ...
+  }: {
     imports = [
       inputs.noctalia.nixosModules.default
     ];
 
     programs.noctalia = {
       enable = true;
+      package = pkgs.noctalia;
 
       # Enables NetworkManager, Bluetooth, UPower, and a power profile service.
       recommendedServices.enable = true;
     };
   };
-  flake.modules.homeManager.niri = {
+  flake.modules.homeManager.noctalia = {
     config,
     inputs,
     ...
