@@ -32,6 +32,12 @@
 
           alias , = comma
 
+          # Convert images to JPEG
+          def jpg [filename: path] {
+            let output = $filename | path parse | update extension 'jpg' | path join
+            magick $filename $output
+          }
+
           $env.config = {
             show_banner: false
             completions: {
